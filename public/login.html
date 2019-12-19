@@ -25,34 +25,26 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900&display=swap" rel="stylesheet">
-
-
 </head>
 
 <body>
 
-    <div class="container landing-page-container">
+    <div class="container landing-page-container ">
         <img class="center" src="/images/Delta_White_Logo.png" alt="Delta Diversified White Logo">
-        <div class="center landing-div">
-            <div class="row">
-                <div class="col-sm">
-                    <button type="submit" class="btn btn-light btn-lg shadow-lg btn-block" style="box-shadow: 15px;">
-                        <a href="/sign-up" style="color: #1A3963; font-family: 'Roboto', 'sans serif'">
-                            Sign Up</a>
-                    </button>
-                </div>
-                <div class="col-sm">
-                    <button type="submit" class="btn btn-light btn-lg shadow-lg btn-block">
-                        <a href="/login" style="color: #1A3963; font-family: 'Roboto', 'sans serif'; padding-top: 5px;">
-                            Login</a>
-                    </button>
-                </div>
+        <form class="center main-page-form">
+            <h3>Login</h3>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address or username</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-        </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
+
 
 </body>
 <footer>

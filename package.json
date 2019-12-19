@@ -4,7 +4,8 @@
   "description": "An app that displays reports based on data collected from an ATS. ",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,18 @@
   },
   "homepage": "https://github.com/mmeganshaw/pcr-api-calls#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "config": "^3.2.4",
     "express": "^4.17.1",
-    "path": "^0.12.7"
+    "express-validator": "^6.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
   }
 }

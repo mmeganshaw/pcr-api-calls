@@ -1,0 +1,39 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    position: relative;
+    background: url('../images/BACKGROUND.png') no-repeat center center/cover;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+.landing-page-container {
+    margin: 5rem;
+    padding-top: 10rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main-page-form {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 15px;
+    border-radius: 15px;
+}
+
+.landing-div {
+    padding: 2rem;
+}
