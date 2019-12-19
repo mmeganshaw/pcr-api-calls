@@ -1,0 +1,24 @@
+{
+  "name": "pcr-api-calls",
+  "version": "1.0.0",
+  "description": "An app that displays reports based on data collected from an ATS. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmeganshaw/pcr-api-calls.git"
+  },
+  "author": "Megan Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmeganshaw/pcr-api-calls/issues"
+  },
+  "homepage": "https://github.com/mmeganshaw/pcr-api-calls#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
